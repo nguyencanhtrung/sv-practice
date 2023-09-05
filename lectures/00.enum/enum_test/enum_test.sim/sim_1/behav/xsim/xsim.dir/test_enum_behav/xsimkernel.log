@@ -1,0 +1,4 @@
+Running: xsim.dir/test_enum_behav/xsimk -simmode gui -wdb test_enum_behav.wdb -simrunnum 0 -socket 46475
+Design successfully loaded
+Design Loading Memory Usage: 27744 KB (Peak: 27864 KB)
+Design Loading CPU Usage: 50 ms
