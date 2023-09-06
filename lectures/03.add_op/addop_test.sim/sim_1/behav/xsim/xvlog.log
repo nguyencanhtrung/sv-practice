@@ -1,4 +1,2 @@
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tesla/workspace/05.Soc/10.studies/08.sv/lectures/03.add_op/src/addop_test.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module addop_test
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/tesla/workspace/05.Soc/10.studies/08.sv/lectures/03.add_op/addop_test.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
