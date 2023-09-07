@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tesla/workspace/05.Soc/10.studies/08.sv/lab2_structures/src/arith_logic.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module arith_logic
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tesla/workspace/05.Soc/10.studies/08.sv/lab2_structures/src/tb_arith_logic.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_arith_logic
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/tesla/workspace/05.Soc/10.studies/08.sv/lab2_structures/arith_logic.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

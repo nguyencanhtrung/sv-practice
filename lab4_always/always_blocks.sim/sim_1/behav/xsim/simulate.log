@@ -1,9 +1,0 @@
-Time resolution is 1 ps
-     0.00 ns       starting test - asserting reset
-   100.00 ns       deasserting reset
-   310.00 ns       testing arming
-   420.00 ns       testing disarming
-   630.00 ns       testing arming, faulting and disarming before alarm
-  1260.00 ns       testing arming, faulting and waiting for alarm
-  2490.00 ns       test passed
-$finish called at time : 2490 ns : File "/home/tesla/workspace/05.Soc/10.studies/08.sv/lab4_always/always_blocks.srcs/sim_1/imports/src_files/security_sv_tb.sv" Line 202
