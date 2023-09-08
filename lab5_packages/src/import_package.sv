@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 // Importing package into this module
-
+import arith_logic_pkg::*;
 
 module import_package (	input logic arith_logic_sel,                    // Selects between arith or logic operations
 						input logic [1:0] operation,					// Selects which arith or logic operations is to be done
@@ -47,12 +47,12 @@ module import_package (	input logic arith_logic_sel,                    // Selec
             // Accesing the Packed Structure for two datas and storing the result in an Packed Union 
 
             // Using two functions for addition and subtraction
-                add :  
-                sub :  
+                add : final_result.result.arith_result = addition(arith_data.data1, arith_data.data2);
+                sub : final_result.result.arith_result = subtraction(arith_data.data1, arith_data.data2);
                 
             // Using two tasks for multiplication and division
-                mul : 
-				div :
+                mul : mutiplication(arith_data.data1, arith_data.data2, final_result.result.arith_result);
+				div : division(arith_data.data1, arith_data.data2, final_result.result.arith_result);
             endcase
 			data_out = final_result.result.arith_result;						
         end
