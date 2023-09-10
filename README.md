@@ -1,4 +1,16 @@
-## SystemVerilog introduction
+## SystemVerilog for design practice
+
+* Course syllabus: `course_syllabus.pdf`
+* Lectures: `lectures.pdf`
+* Labs: `labs.pdf`
+* Book: `SystemVerilogForDeisgn_2nd.pdf`
+
+The course merely focuses on RTL design aspect.
+
+<strong>Hierarchy</strong>
+
+* `lab*_` completed labs
+* `lectures` includes examples showed in the lecture
 
 ### How to create vivado project for each lab
 
